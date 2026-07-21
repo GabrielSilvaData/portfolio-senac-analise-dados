@@ -2,13 +2,13 @@
 
 # Nesta aula foram aprofundados os conceitos de estruturas condicionais, explorando diferentes formas de tomada de decisão com if, elif, else e a estrutura match/case, introduzida no Python para tornar o código mais organizado em situações com múltiplas opções.
 
-# 📚 Conteúdos abordados
+# 📚 Conteúdos abordados:
 
 # Revisão das estruturas condicionais:
 
 # if
 
-#if com elif
+# if com elif
 
 # if aninhado
 
@@ -30,6 +30,6 @@
 
 # Classificação de números como positivo, negativo ou zero.
 
-# 🎯 Objetivo da aula
+# 🎯 Objetivo da aula:
 
 # Compreender diferentes formas de controle de fluxo em Python, aprendendo quando utilizar if/elif/else e quando o match/case pode tornar o código mais legível, organizado e de fácil manutenção.
