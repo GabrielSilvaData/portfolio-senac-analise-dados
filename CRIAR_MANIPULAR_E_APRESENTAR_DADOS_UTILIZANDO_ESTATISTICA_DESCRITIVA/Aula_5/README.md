@@ -1,78 +1,44 @@
-\# 🐍 Aula 06 – Estruturas de Repetição (for e while)
+# 🗄️ Aula 05 – Relacionamentos em Banco de Dados e Integração com Pandas
 
+Nesta aula foram aprofundados os conceitos de **modelagem de bancos de dados relacionais**, abordando a criação de **chaves primárias** e **chaves estrangeiras**, além da realização de consultas utilizando **JOIN** para relacionar informações de múltiplas tabelas.
 
+Também foi demonstrado como integrar essas tabelas ao **Python** utilizando **Pandas**, realizando junções entre DataFrames e aplicando filtros para análise de dados.
 
-\# Nesta aula foram apresentados os conceitos de estruturas de repetição, permitindo executar um mesmo bloco de código diversas vezes de forma controlada. Foram explorados os laços for e while, além de exercícios práticos envolvendo contadores, acumuladores e repetições com entrada de dados.
+## 📚 Conteúdos abordados:
 
+- Conceito de banco de dados relacional.
+- Criação de **Primary Key (Chave Primária)**.
+- Criação de **Foreign Key (Chave Estrangeira)**.
+- Relacionamento entre tabelas.
+- Comando `ALTER TABLE`.
+- Utilização de `AUTO_INCREMENT`.
+- Consultas utilizando `JOIN`.
+- Relacionamento entre múltiplas tabelas.
+- Filtragem de registros utilizando:
+  - `WHERE`
+  - `BETWEEN`
+- Conexão entre Python e MySQL utilizando SQLAlchemy.
+- Importação de tabelas para DataFrames com `pd.read_sql()`.
+- Junção de DataFrames utilizando `pd.merge()`.
+- Utilização dos parâmetros:
+  - `on`
+  - `left_on`
+  - `right_on`
+- Tratamento de exceções durante a conexão e manipulação dos dados.
 
+## 🧩 Exercícios desenvolvidos:
 
-\# 📚 Conteúdos abordados
+Durante a aula foram desenvolvidos exemplos práticos como:
 
+- Criação das chaves primárias das tabelas de um sistema de biblioteca.
+- Criação das chaves estrangeiras para estabelecer relacionamentos entre usuários, livros, empréstimos e itens emprestados.
+- Consulta SQL relacionando diversas tabelas utilizando `JOIN`.
+- Filtragem de empréstimos realizados em um período específico utilizando `BETWEEN`.
+- Importação das tabelas do banco de dados para o Pandas.
+- Realização de múltiplos `merge()` para consolidar informações em um único DataFrame.
+- Filtragem dos empréstimos devolvidos durante o mês de novembro.
+- Exibição das informações de usuários, livros, datas de empréstimo e devolução e valores dos empréstimos.
 
+## 🎯 Objetivo da aula:
 
-\# Estrutura de repetição for.
-
-
-
-\# Utilização da função range() para gerar sequências de números.
-
-
-
-\# Conceito de indentação e sua importância na definição dos blocos de código em Python.
-
-
-
-\# Repetições com valores inicial, final e quantidade de iterações.
-
-
-
-\# Uso de variáveis de controle, contadores e acumuladores.
-
-
-
-\# Entrada de dados dentro de laços de repetição.
-
-
-
-\# Estrutura de repetição while.
-
-
-
-\# Controle de repetição utilizando condições de parada.
-
-
-
-\# Evitando loops infinitos com atualização das variáveis de controle.
-
-
-
-\# Desenvolvimento de exercícios utilizando repetições, incluindo:
-
-
-
-\# Exibição de mensagens e contagens numéricas;
-
-
-
-\# Soma de números informados pelo usuário;
-
-
-
-\# Soma de vendas conforme critérios definidos;
-
-
-
-\# Cálculo da média de notas para vários alunos;
-
-
-
-\# Processamento de vendas com desconto utilizando while até que o usuário escolha encerrar o programa.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender o funcionamento das estruturas de repetição em Python, aprendendo a automatizar tarefas repetitivas, processar grandes quantidades de dados e controlar o fluxo de execução por meio dos laços for e while
-
+Compreender a importância dos relacionamentos em bancos de dados, aprender a utilizar **JOIN** para combinar informações de diferentes tabelas e integrar esses dados ao Python utilizando o Pandas, preparando conjuntos de dados completos para análise e geração de relatórios.
