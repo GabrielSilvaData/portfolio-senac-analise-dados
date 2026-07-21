@@ -1,8 +1,8 @@
 # 🐍 Aula 01 – Introdução ao Python
 
-Nesta aula foram apresentados os conceitos fundamentais da linguagem Python.
+# Nesta aula foram apresentados os conceitos fundamentais da linguagem Python.
 
-Conteúdos abordados:
+# Conteúdos abordados:
 
 # Uso da função print()
 # Comentários no código (#)
