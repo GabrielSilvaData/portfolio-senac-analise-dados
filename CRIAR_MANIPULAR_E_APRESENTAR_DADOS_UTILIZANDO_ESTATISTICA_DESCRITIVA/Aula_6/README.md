@@ -1,78 +1,52 @@
-\# 🐍 Aula 06 – Estruturas de Repetição (for e while)
+# 📊 Aula 06 – Análise Estatística Descritiva e Visualização de Dados
 
+Nesta aula foram aprofundados os conceitos de **Estatística Descritiva** aplicados à análise de dados reais utilizando as bibliotecas **Pandas**, **NumPy** e **Matplotlib**. Os dados foram obtidos a partir de uma base pública do **Instituto de Segurança Pública do Rio de Janeiro (ISP-RJ)**, permitindo realizar análises sobre ocorrências de roubo de veículos por município.
 
+Além da análise estatística, foram desenvolvidas visualizações gráficas para facilitar a interpretação dos resultados.
 
-\# Nesta aula foram apresentados os conceitos de estruturas de repetição, permitindo executar um mesmo bloco de código diversas vezes de forma controlada. Foram explorados os laços for e while, além de exercícios práticos envolvendo contadores, acumuladores e repetições com entrada de dados.
+## 📚 Conteúdos abordados:
 
+- Importação das bibliotecas:
+  - Pandas
+  - NumPy
+  - Matplotlib
+- Leitura de arquivos CSV hospedados na internet utilizando `read_csv()`.
+- Tratamento da codificação de caracteres (`encoding`).
+- Seleção de colunas específicas.
+- Agrupamento de dados utilizando `groupby()`.
+- Soma de valores por categoria.
+- Ordenação de dados com `sort_values()`.
+- Conversão de Series para Arrays NumPy.
+- Cálculo de medidas de tendência central:
+  - Média (`np.mean()`)
+  - Mediana (`np.median()`)
+- Comparação entre média e mediana.
+- Cálculo de medidas de posição:
+  - Primeiro Quartil (Q1)
+  - Segundo Quartil (Q2)
+  - Terceiro Quartil (Q3)
+- Identificação de municípios acima e abaixo dos quartis.
+- Cálculo de medidas de dispersão:
+  - Valor máximo
+  - Valor mínimo
+  - Amplitude Total
+- Identificação de outliers utilizando o método do **Intervalo Interquartil (IQR)**.
+- Criação de gráficos de barras horizontais utilizando Matplotlib.
+- Tratamento de exceções com `try` e `except`.
 
+## 🧩 Exercícios desenvolvidos:
 
-\# 📚 Conteúdos abordados
+Durante a aula foram desenvolvidos exemplos práticos como:
 
+- Importação de uma base pública de ocorrências de roubo de veículos do ISP-RJ.
+- Agrupamento das ocorrências por município.
+- Cálculo da média e mediana dos roubos de veículos.
+- Determinação dos quartis da distribuição dos dados.
+- Identificação dos municípios com maiores e menores índices de roubo.
+- Cálculo da amplitude total da distribuição.
+- Identificação de possíveis outliers utilizando o método IQR.
+- Construção de gráficos comparando os municípios com maiores e menores quantidades de roubos.
 
+## 🎯 Objetivo da aula:
 
-\# Estrutura de repetição for.
-
-
-
-\# Utilização da função range() para gerar sequências de números.
-
-
-
-\# Conceito de indentação e sua importância na definição dos blocos de código em Python.
-
-
-
-\# Repetições com valores inicial, final e quantidade de iterações.
-
-
-
-\# Uso de variáveis de controle, contadores e acumuladores.
-
-
-
-\# Entrada de dados dentro de laços de repetição.
-
-
-
-\# Estrutura de repetição while.
-
-
-
-\# Controle de repetição utilizando condições de parada.
-
-
-
-\# Evitando loops infinitos com atualização das variáveis de controle.
-
-
-
-\# Desenvolvimento de exercícios utilizando repetições, incluindo:
-
-
-
-\# Exibição de mensagens e contagens numéricas;
-
-
-
-\# Soma de números informados pelo usuário;
-
-
-
-\# Soma de vendas conforme critérios definidos;
-
-
-
-\# Cálculo da média de notas para vários alunos;
-
-
-
-\# Processamento de vendas com desconto utilizando while até que o usuário escolha encerrar o programa.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender o funcionamento das estruturas de repetição em Python, aprendendo a automatizar tarefas repetitivas, processar grandes quantidades de dados e controlar o fluxo de execução por meio dos laços for e while
-
+Aplicar técnicas de Estatística Descritiva em um conjunto de dados reais, utilizando Pandas e NumPy para análise estatística e Matplotlib para visualização gráfica, desenvolvendo habilidades fundamentais para exploração, interpretação e apresentação de dados na área de Análise de Dados.
