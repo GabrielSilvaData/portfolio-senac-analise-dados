@@ -1,16 +1,16 @@
-🐍 Aula 02 – Entrada de Dados e Operações Matemáticas
+# 🐍 Aula 02 – Entrada de Dados e Operações Matemáticas
 
 # Nesta aula foram apresentados os conceitos de entrada de dados pelo usuário utilizando a função input(), além da conversão de tipos de dados e da aplicação de cálculos matemáticos em situações do dia a dia.
 
-# 📚 Conteúdos abordados
+# 📚 Conteúdos abordados:
 
 # Utilização da função input() para receber informações do usuário.
 
 # Conversão de tipos de dados com:
 
-# int() para números inteiros;
+# int() para números inteiros
 
-# float() para números decimais;
+# float() para números decimais
 
 # str() para textos.
 
