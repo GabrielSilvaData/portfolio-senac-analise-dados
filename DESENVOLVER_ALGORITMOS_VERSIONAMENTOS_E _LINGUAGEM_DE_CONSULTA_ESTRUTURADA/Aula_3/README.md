@@ -24,7 +24,7 @@
 
 # Entendimento do fluxo básico de versionamento: Editar → Adicionar → Commit → Push.
 
-# 🎯 Objetivo da aula
+# 🎯 Objetivo da aula:
 
 # Compreender o funcionamento do Git e do GitHub, aprendendo a criar e versionar projetos, registrar alterações por meio de commits e sincronizar o repositório local com o repositório remoto no GitHub.
 
