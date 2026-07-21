@@ -1,78 +1,46 @@
-\# 🐍 Aula 06 – Estruturas de Repetição (for e while)
+# 📊 Aula 02 – Manipulação e Análise de Dados com Pandas
 
+Nesta aula foram aprofundados os conceitos de manipulação e análise de dados utilizando a biblioteca **Pandas**. Foram realizadas leituras de arquivos nos formatos **Excel** e **CSV**, aplicação de funções estatísticas, filtragem de informações e criação de novas colunas para preparação dos dados.
 
+Também foram explorados métodos para identificar valores máximos e mínimos, calcular médias, totais e gerar novas informações a partir dos dados existentes.
 
-\# Nesta aula foram apresentados os conceitos de estruturas de repetição, permitindo executar um mesmo bloco de código diversas vezes de forma controlada. Foram explorados os laços for e while, além de exercícios práticos envolvendo contadores, acumuladores e repetições com entrada de dados.
+## 📚 Conteúdos abordados:
 
+- Leitura de arquivos Excel utilizando `read_excel()`.
+- Leitura de arquivos CSV utilizando `read_csv()`.
+- Instalação da biblioteca `openpyxl` para leitura de planilhas do Excel.
+- Visualização dos registros utilizando `head()`.
+- Seleção de colunas específicas.
+- Localização de registros utilizando `loc`.
+- Identificação do maior e menor valor com:
+  - `idxmax()`
+  - `idxmin()`
+  - `max()`
+  - `min()`
+- Cálculo de estatísticas utilizando:
+  - `sum()`
+  - `mean()`
+- Filtragem de dados utilizando condições.
+- Criação de novas colunas em DataFrames.
+- Preparação e transformação de dados para análise.
 
+## 🧩 Exercícios desenvolvidos:
 
-\# 📚 Conteúdos abordados
+Durante a aula foram desenvolvidos exemplos práticos como:
 
+- Análise de uma planilha de vendas de produtos eletrônicos.
+- Identificação do produto com maior faturamento.
+- Identificação do produto com menor faturamento.
+- Cálculo do total de unidades vendidas.
+- Cálculo da média dos preços dos produtos.
+- Listagem dos produtos com faturamento acima da média.
+- Criação de uma planilha de custos contendo:
+  - Preço de compra.
+  - Impostos.
+  - Frete.
+  - Taxa operacional.
+- Cálculo automático do custo total de cada produto através da criação de uma nova coluna.
 
+## 🎯 Objetivo da aula:
 
-\# Estrutura de repetição for.
-
-
-
-\# Utilização da função range() para gerar sequências de números.
-
-
-
-\# Conceito de indentação e sua importância na definição dos blocos de código em Python.
-
-
-
-\# Repetições com valores inicial, final e quantidade de iterações.
-
-
-
-\# Uso de variáveis de controle, contadores e acumuladores.
-
-
-
-\# Entrada de dados dentro de laços de repetição.
-
-
-
-\# Estrutura de repetição while.
-
-
-
-\# Controle de repetição utilizando condições de parada.
-
-
-
-\# Evitando loops infinitos com atualização das variáveis de controle.
-
-
-
-\# Desenvolvimento de exercícios utilizando repetições, incluindo:
-
-
-
-\# Exibição de mensagens e contagens numéricas;
-
-
-
-\# Soma de números informados pelo usuário;
-
-
-
-\# Soma de vendas conforme critérios definidos;
-
-
-
-\# Cálculo da média de notas para vários alunos;
-
-
-
-\# Processamento de vendas com desconto utilizando while até que o usuário escolha encerrar o programa.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender o funcionamento das estruturas de repetição em Python, aprendendo a automatizar tarefas repetitivas, processar grandes quantidades de dados e controlar o fluxo de execução por meio dos laços for e while
-
+Aprender a manipular, preparar e analisar conjuntos de dados utilizando o Pandas, aplicando funções estatísticas, filtros e transformações para extrair informações relevantes e preparar os dados para análises mais avançadas.
