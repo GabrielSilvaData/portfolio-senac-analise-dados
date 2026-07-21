@@ -1,104 +1,47 @@
-
-
-\# 🐍 Aula 08 – Funções em Python
-
-
-
-\# Nesta aula foram apresentados os conceitos de funções em Python, uma ferramenta fundamental para organizar, reutilizar e tornar o código mais eficiente. Foram abordadas funções simples, funções com parâmetros, retorno de valores e a utilização de funções em programas maiores.
-
-
-
-\# 📚 Conteúdos abordados
-
-
-
-\# Criação de funções utilizando def.
-
-
-
-\# Importância da indentação dentro das funções.
-
-
-
-\# Execução de funções através de chamadas.
-
-
-
-\# Funções sem parâmetros.
-
-
-
-\# Funções com parâmetros.
-
-
-
-\# Passagem de valores para funções.
-
-
-
-\# Utilização de múltiplos parâmetros em uma função.
-
-
-
-\# Diferença entre:
-
-
-
-\# Funções que utilizam print() para exibir resultados;
-
-
-
-\# Funções que utilizam return para devolver valores.
-
-
-
-\# Armazenamento de resultados retornados por funções em variáveis.
-
-
-
-\#  de funções junto com estruturas de repetição.
-
-
-
-\# Conceito de escopo de variáveis.
-
-
-
-\# Utilização de constantes em programas.
-
-
-
-\# Organização do código separando responsabilidades entre funções e programa principal.
-
-
-
-\# 🧩 Exercícios desenvolvidos
-
-
-
-\# Durante a aula foram desenvolvidas funções para:
-
-
-
-\# Criar mensagens de saudação utilizando parâmetros.
-
-
-
-\# Realizar operações matemáticas, como soma, dobro e quadrado.
-
-
-
-\# Calcular multas utilizando valores constantes.
-
-
-
-\# Calcular o IMC e classificar o resultado conforme faixas definidas.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender como criar funções para dividir problemas em partes menores, melhorar a organização do código e possibilitar a reutilização de trechos de programação. Também foi desenvolvido o entendimento sobre passagem de parâmetros, retorno de valores e boas práticas na construção de algoritmos.
-
+# 🐍 Aula 10 – Tratamento de Exceções (Try/Except) em Python
+
+Nesta aula foram apresentados os conceitos de tratamento de exceções em Python, aprendendo como evitar que um programa seja interrompido por erros durante a execução e como fornecer mensagens mais amigáveis ao usuário.
+
+Também foram exploradas diferentes formas de tratar exceções utilizando os blocos `try`, `except`, `else` e `finally`, além do tratamento de múltiplos tipos de erros e da utilização da classe genérica `Exception`.
+
+## 📚 Conteúdos abordados:
+
+- Conceito de tratamento de exceções.
+- Utilização do bloco `try` para executar códigos que podem gerar erros.
+- Tratamento de erros utilizando `except`.
+- Principais exceções:
+  - `ValueError`
+  - `ZeroDivisionError`
+  - `TypeError`
+  - `KeyboardInterrupt`
+  - `Exception`
+- Tratamento de múltiplas exceções em um único `except`.
+- Utilização do bloco `else` para executar código quando não ocorre erro.
+- Utilização do bloco `finally` para executar instruções independentemente do resultado da execução.
+- Diferença entre tratamento de erros específicos e tratamento genérico com `Exception`.
+- Validação de entradas fornecidas pelo usuário.
+- Continuação da execução de programas mesmo após a ocorrência de erros.
+
+## 🧩 Exercícios desenvolvidos:
+
+Durante a aula foram desenvolvidos exemplos práticos como:
+
+- Cálculo de produtividade:
+  - Leitura de valores numéricos.
+  - Tratamento de erros de conversão.
+  - Tratamento de divisão por zero.
+- Utilização de `try/except` dentro de estruturas de repetição (`for`).
+- Cálculo da média de notas de alunos utilizando:
+  - Funções.
+  - Listas.
+  - Laços de repetição.
+  - Tratamento de exceções.
+- Sistema de Caixa Eletrônico:
+  - Validação de valor para saque.
+  - Verificação de saldo disponível.
+  - Tratamento de entradas inválidas.
+  - Encerramento seguro do programa.
+
+## 🎯 Objetivo da aula:
+
+Aprender a desenvolver programas mais seguros e robustos utilizando tratamento de exceções, prevenindo falhas causadas por entradas inválidas ou situações inesperadas e proporcionando uma melhor experiência para o usuário.
