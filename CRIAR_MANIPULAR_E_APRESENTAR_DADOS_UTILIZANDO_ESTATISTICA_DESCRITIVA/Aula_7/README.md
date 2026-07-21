@@ -1,78 +1,54 @@
-\# 🐍 Aula 06 – Estruturas de Repetição (for e while)
+# 📊 Aula 07 – Medidas de Distribuição e Visualização Estatística
 
+Nesta aula foram aprofundados os conceitos de **Estatística Descritiva**, com foco na análise da distribuição dos dados. Foram utilizadas as bibliotecas **Pandas**, **NumPy** e **Matplotlib** para calcular medidas estatísticas, identificar outliers, analisar a assimetria e curtose da distribuição e construir gráficos que facilitam a interpretação dos resultados.
 
+A análise foi realizada utilizando uma base pública do **Instituto de Segurança Pública do Rio de Janeiro (ISP-RJ)** contendo dados de roubo de veículos por município.
 
-\# Nesta aula foram apresentados os conceitos de estruturas de repetição, permitindo executar um mesmo bloco de código diversas vezes de forma controlada. Foram explorados os laços for e while, além de exercícios práticos envolvendo contadores, acumuladores e repetições com entrada de dados.
+## 📚 Conteúdos abordados:
 
+- Importação das bibliotecas:
+  - Pandas
+  - NumPy
+  - Matplotlib
+- Leitura de dados diretamente de um arquivo CSV hospedado na internet.
+- Agrupamento e ordenação de dados utilizando Pandas.
+- Conversão de Series para Arrays NumPy.
+- Cálculo de medidas de tendência central:
+  - Média
+  - Mediana
+- Comparação entre média e mediana.
+- Cálculo da distância percentual entre média e mediana.
+- Cálculo de medidas de posição:
+  - Primeiro Quartil (Q1)
+  - Segundo Quartil (Q2)
+  - Terceiro Quartil (Q3)
+- Cálculo da amplitude total.
+- Identificação de outliers utilizando o método do Intervalo Interquartil (IQR).
+- Cálculo da **Assimetria (Skewness)**.
+- Cálculo da **Curtose (Kurtosis)**.
+- Construção de gráficos utilizando Matplotlib:
+  - Gráfico de barras horizontais.
+  - Histograma.
+  - Boxplot.
+  - Painel com resumo estatístico.
+- Interpretação da distribuição dos dados.
+- Tratamento de exceções utilizando `try` e `except`.
 
+## 🧩 Exercícios desenvolvidos:
 
-\# 📚 Conteúdos abordados
+Durante a aula foram desenvolvidos exemplos práticos como:
 
+- Análise estatística da quantidade de roubos de veículos por município.
+- Identificação dos municípios com maiores e menores índices de roubo.
+- Cálculo da média, mediana e quartis da distribuição.
+- Cálculo da amplitude total dos dados.
+- Identificação de possíveis outliers superiores e inferiores.
+- Análise da assimetria da distribuição para verificar o comportamento dos dados.
+- Análise da curtose para avaliar a concentração dos valores em torno da média.
+- Construção de histogramas para visualizar a frequência dos dados.
+- Construção de boxplots para identificar dispersão e outliers.
+- Desenvolvimento de um painel gráfico contendo indicadores estatísticos e visualizações da distribuição dos dados.
 
+## 🎯 Objetivo da aula:
 
-\# Estrutura de repetição for.
-
-
-
-\# Utilização da função range() para gerar sequências de números.
-
-
-
-\# Conceito de indentação e sua importância na definição dos blocos de código em Python.
-
-
-
-\# Repetições com valores inicial, final e quantidade de iterações.
-
-
-
-\# Uso de variáveis de controle, contadores e acumuladores.
-
-
-
-\# Entrada de dados dentro de laços de repetição.
-
-
-
-\# Estrutura de repetição while.
-
-
-
-\# Controle de repetição utilizando condições de parada.
-
-
-
-\# Evitando loops infinitos com atualização das variáveis de controle.
-
-
-
-\# Desenvolvimento de exercícios utilizando repetições, incluindo:
-
-
-
-\# Exibição de mensagens e contagens numéricas;
-
-
-
-\# Soma de números informados pelo usuário;
-
-
-
-\# Soma de vendas conforme critérios definidos;
-
-
-
-\# Cálculo da média de notas para vários alunos;
-
-
-
-\# Processamento de vendas com desconto utilizando while até que o usuário escolha encerrar o programa.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender o funcionamento das estruturas de repetição em Python, aprendendo a automatizar tarefas repetitivas, processar grandes quantidades de dados e controlar o fluxo de execução por meio dos laços for e while
-
+Aprender a interpretar a distribuição de conjuntos de dados utilizando medidas estatísticas e técnicas de visualização, identificando padrões, dispersões, assimetrias e outliers para apoiar análises exploratórias e a tomada de decisão baseada em dados.
