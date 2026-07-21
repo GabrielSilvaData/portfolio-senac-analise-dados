@@ -1,5 +1,5 @@
 print('Olá mundo!')
-print('Claudenir Ferreira')
+print('Gabriel Silva')
 
 # print('Olá mundo!')
 # O símbolo # é usado para comentar uma linha.
