@@ -30,7 +30,7 @@
 
 # Cálculo da média de quatro notas.
 
-# 🎯 Objetivo da aula
+# 🎯 Objetivo da aula:
 
 # Aprender a interagir com o usuário por meio da entrada de dados, realizar conversões entre diferentes tipos de variáveis e desenvolver a lógica para resolver problemas utilizando operações matemáticas e cálculos simples.
 
