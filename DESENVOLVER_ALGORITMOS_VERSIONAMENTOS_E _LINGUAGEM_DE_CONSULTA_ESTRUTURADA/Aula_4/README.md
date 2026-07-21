@@ -1,32 +1,35 @@
-\# 🌿 Aula 03 – Introdução ao Git e GitHub
+# 🐍 Aula 04 – Estruturas Condicionais (if, elif e else)
 
-\# Nesta aula foram apresentados os conceitos básicos de Git e GitHub, ferramentas essenciais para o controle de versão e o armazenamento de projetos na nuvem. Também foram praticados os principais comandos utilizados no fluxo de trabalho para versionamento de código.
+# Nesta aula foram apresentados os conceitos de estruturas condicionais, permitindo que o programa tome decisões com base em condições definidas pelo usuário ou pelos valores das variáveis. Também foram explorados operadores lógicos para combinar diferentes condições.
 
+# 📚 Conteúdos abordados:
 
+# Estrutura condicional if.
 
-\# 📚 Conteúdos abordados
+# Utilização de if, elif e else para múltiplas condições.
 
-\# Conceitos de Git e GitHub.
+# Comparação de valores utilizando operadores relacionais (>, <, >=, <=, == e !=).
 
-\# Inicialização de um repositório local com git init.
+# Operadores lógicos and e or.
 
-\# Configuração do usuário e e-mail no Git.
+# Conversão de textos para letras minúsculas com .lower().
 
-\# Associação do repositório local a um repositório remoto no GitHub (git remote add origin).
+# Desenvolvimento de exercícios utilizando lógica condicional, incluindo:
 
-\# Sincronização do repositório local com o remoto utilizando git pull.
+# Verificação de maioridade
 
-\# Verificação do estado dos arquivos com git status.
+# Classificação de desempenho por pontuação
 
-\# Adição de arquivos para a área de preparação com git add.
+# Validação de login com usuário e senha
 
-\# Criação de commits utilizando git commit -m.
+# Aprovação de alunos por nota e frequência
 
-\# Envio das alterações para o GitHub com git push origin main.
+# Aplicação de descontos conforme valor da compra e forma de pagamento
 
-\# Entendimento do fluxo básico de versionamento: Editar → Adicionar → Commit → Push.
+# Validação de estoque e peso para envio de pedidos
 
-\#🎯 Objetivo da aula
+# Verificação de critérios para concessão de benefícios.
 
-\# Compreender o funcionamento do Git e do GitHub, aprendendo a criar e versionar projetos, registrar alterações por meio de commits e sincronizar o repositório local com o repositório remoto no GitHub.
+# 🎯 Objetivo da aula
 
+# Aprender a controlar o fluxo de execução de um programa por meio de estruturas condicionais, utilizando operadores relacionais e lógicos para resolver problemas e automatizar tomadas de decisão.
