@@ -1,32 +1,35 @@
-\# 🌿 Aula 03 – Introdução ao Git e GitHub
+# 🐍 Aula 05 – Estruturas Condicionais Avançadas e match/case
 
-\# Nesta aula foram apresentados os conceitos básicos de Git e GitHub, ferramentas essenciais para o controle de versão e o armazenamento de projetos na nuvem. Também foram praticados os principais comandos utilizados no fluxo de trabalho para versionamento de código.
+# Nesta aula foram aprofundados os conceitos de estruturas condicionais, explorando diferentes formas de tomada de decisão com if, elif, else e a estrutura match/case, introduzida no Python para tornar o código mais organizado em situações com múltiplas opções.
 
+# 📚 Conteúdos abordados
 
+# Revisão das estruturas condicionais:
 
-\# 📚 Conteúdos abordados
+# if
 
-\# Conceitos de Git e GitHub.
+#if com elif
 
-\# Inicialização de um repositório local com git init.
+# if aninhado
 
-\# Configuração do usuário e e-mail no Git.
+# Diferença entre condições independentes e condições exclusivas.
 
-\# Associação do repositório local a um repositório remoto no GitHub (git remote add origin).
+# Utilização do match/case para substituir múltiplos if/elif.
 
-\# Sincronização do repositório local com o remoto utilizando git pull.
+# Uso do operador | (OU) no match/case.
 
-\# Verificação do estado dos arquivos com git status.
+# Utilização de condições (if) dentro do case para validar intervalos de valores.
 
-\# Adição de arquivos para a área de preparação com git add.
+# Desenvolvimento de sistemas de decisão baseados em menus e opções do usuário.
 
-\# Criação de commits utilizando git commit -m.
+# Aplicação de descontos conforme a forma de pagamento.
 
-\# Envio das alterações para o GitHub com git push origin main.
+# Classificação de faixa etária utilizando intervalos.
 
-\# Entendimento do fluxo básico de versionamento: Editar → Adicionar → Commit → Push.
+# Identificação de regiões por código.
 
-\#🎯 Objetivo da aula
+# Classificação de números como positivo, negativo ou zero.
 
-\# Compreender o funcionamento do Git e do GitHub, aprendendo a criar e versionar projetos, registrar alterações por meio de commits e sincronizar o repositório local com o repositório remoto no GitHub.
+# 🎯 Objetivo da aula
 
+# Compreender diferentes formas de controle de fluxo em Python, aprendendo quando utilizar if/elif/else e quando o match/case pode tornar o código mais legível, organizado e de fácil manutenção.
