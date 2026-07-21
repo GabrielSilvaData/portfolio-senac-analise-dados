@@ -1,32 +1,30 @@
-\# 🌿 Aula 03 – Introdução ao Git e GitHub
+# 🌿 Aula 03 – Introdução ao Git e GitHub
 
-\# Nesta aula foram apresentados os conceitos básicos de Git e GitHub, ferramentas essenciais para o controle de versão e o armazenamento de projetos na nuvem. Também foram praticados os principais comandos utilizados no fluxo de trabalho para versionamento de código.
+# Nesta aula foram apresentados os conceitos básicos de Git e GitHub, ferramentas essenciais para o controle de versão e o armazenamento de projetos na nuvem. Também foram praticados os principais comandos utilizados no fluxo de trabalho para versionamento de código.
 
+# 📚 Conteúdos abordados:
 
+# Conceitos de Git e GitHub.
 
-\# 📚 Conteúdos abordados
+# Inicialização de um repositório local com git init.
 
-\# Conceitos de Git e GitHub.
+# Configuração do usuário e e-mail no Git.
 
-\# Inicialização de um repositório local com git init.
+# Associação do repositório local a um repositório remoto no GitHub (git remote add origin).
 
-\# Configuração do usuário e e-mail no Git.
+# Sincronização do repositório local com o remoto utilizando git pull.
 
-\# Associação do repositório local a um repositório remoto no GitHub (git remote add origin).
+# Verificação do estado dos arquivos com git status.
 
-\# Sincronização do repositório local com o remoto utilizando git pull.
+# Adição de arquivos para a área de preparação com git add.
 
-\# Verificação do estado dos arquivos com git status.
+# Criação de commits utilizando git commit -m.
 
-\# Adição de arquivos para a área de preparação com git add.
+# Envio das alterações para o GitHub com git push origin main.
 
-\# Criação de commits utilizando git commit -m.
+# Entendimento do fluxo básico de versionamento: Editar → Adicionar → Commit → Push.
 
-\# Envio das alterações para o GitHub com git push origin main.
+# 🎯 Objetivo da aula
 
-\# Entendimento do fluxo básico de versionamento: Editar → Adicionar → Commit → Push.
-
-\#🎯 Objetivo da aula
-
-\# Compreender o funcionamento do Git e do GitHub, aprendendo a criar e versionar projetos, registrar alterações por meio de commits e sincronizar o repositório local com o repositório remoto no GitHub.
+# Compreender o funcionamento do Git e do GitHub, aprendendo a criar e versionar projetos, registrar alterações por meio de commits e sincronizar o repositório local com o repositório remoto no GitHub.
 
