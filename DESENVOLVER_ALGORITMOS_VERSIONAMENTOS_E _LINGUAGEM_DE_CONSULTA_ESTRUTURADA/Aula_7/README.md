@@ -1,78 +1,49 @@
-\# 🐍 Aula 06 – Estruturas de Repetição (for e while)
+# 🐍 Aula 07 – Listas e Dicionários
 
+# Nesta aula foram apresentados os conceitos de listas e dicionários, duas das principais estruturas de dados do Python. Foram realizados exercícios envolvendo armazenamento, manipulação e consulta de informações, além da utilização dessas estruturas em conjunto com laços de repetição.
 
+# 📚 Conteúdos abordados
 
-\# Nesta aula foram apresentados os conceitos de estruturas de repetição, permitindo executar um mesmo bloco de código diversas vezes de forma controlada. Foram explorados os laços for e while, além de exercícios práticos envolvendo contadores, acumuladores e repetições com entrada de dados.
+# Criação e manipulação de listas (list).
 
+# Acesso aos elementos por índice.
 
+# Fatiamento (slicing) de listas.
 
-\# 📚 Conteúdos abordados
+# Percorrendo listas com o laço for.
 
+# Principais métodos para manipulação de listas:
 
+# append()
 
-\# Estrutura de repetição for.
+# insert()
 
+# remove()
 
+# pop()
 
-\# Utilização da função range() para gerar sequências de números.
+# clear()
 
+# del
 
+# Cadastro e armazenamento de dados em listas.
 
-\# Conceito de indentação e sua importância na definição dos blocos de código em Python.
+# Processamento de informações utilizando listas e estruturas condicionais.
 
+# Criação e manipulação de dicionários (dict).
 
+# Inserção, alteração, consulta e remoção de chaves e valores.
 
-\# Repetições com valores inicial, final e quantidade de iterações.
+# Utilização de listas contendo dicionários para representar conjuntos de dados mais complexos.
 
+# Desenvolvimento de exemplos práticos, como:
 
+# Cadastro e análise de vendas
 
-\# Uso de variáveis de controle, contadores e acumuladores.
+# Cadastro de pessoas
 
+# Cadastro de livros com filtros por ano de publicação.
 
+# 🎯 Objetivo da aula:
 
-\# Entrada de dados dentro de laços de repetição.
-
-
-
-\# Estrutura de repetição while.
-
-
-
-\# Controle de repetição utilizando condições de parada.
-
-
-
-\# Evitando loops infinitos com atualização das variáveis de controle.
-
-
-
-\# Desenvolvimento de exercícios utilizando repetições, incluindo:
-
-
-
-\# Exibição de mensagens e contagens numéricas;
-
-
-
-\# Soma de números informados pelo usuário;
-
-
-
-\# Soma de vendas conforme critérios definidos;
-
-
-
-\# Cálculo da média de notas para vários alunos;
-
-
-
-\# Processamento de vendas com desconto utilizando while até que o usuário escolha encerrar o programa.
-
-
-
-\# 🎯 Objetivo da aula
-
-
-
-\# Compreender o funcionamento das estruturas de repetição em Python, aprendendo a automatizar tarefas repetitivas, processar grandes quantidades de dados e controlar o fluxo de execução por meio dos laços for e while
-
+# Compreender como utilizar listas e dicionários para armazenar, organizar e manipular dados de forma eficiente, preparando a base para o desenvolvimento de aplicações mais completas e para a análise de dados utilizando Python.
